@@ -1,4 +1,0 @@
-[run]
-omit =
-    pip_freeze_*.py
-    conda_list_*.py

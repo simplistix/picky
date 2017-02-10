@@ -1,11 +1,3 @@
-|Travis|_ |Docs|_
-
-.. |Travis| image:: https://api.travis-ci.org/Simplistix/picky.png?branch=master
-.. _Travis: https://travis-ci.org/Simplistix/picky
-
-.. |Docs| image:: https://readthedocs.org/projects/picky/badge
-.. _Docs: http://picky.readthedocs.org/en/latest/
-
 Picky
 =====
 
@@ -16,20 +8,16 @@ __ https://pip.pypa.io/en/stable/
 
 __ http://conda.pydata.org/docs/
 
-Installation
-============
+It has been split into two tools:
 
-Do the following in your virtualenv or conda environment::
+* `picky-pip`__ for virtualenvs and other environments where pip is used to
+   manage packages
+* `picky-conda`__ for conda environments.
 
-  pip install picky
-  
-Documentation
-=============
+__ https://github.com/Simplistix/picky-pip
 
-Documentation can be found in the ``docs`` directory of the picky package.
+__ https://github.com/Simplistix/picky-conda
 
-The latest documentation can also be found at:
-http://picky.readthedocs.org/en/latest/
 
 Problems?
 =========
