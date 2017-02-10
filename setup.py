@@ -22,4 +22,7 @@ setup(
     classifiers=[],
     zip_safe=False,
     include_package_data=True,
+    extras_require={
+        'build': ['sphinx', 'pkginfo', 'setuptools-git', 'twine', 'wheel']
+},
 )
