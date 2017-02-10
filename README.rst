@@ -10,10 +10,10 @@ __ http://conda.pydata.org/docs/
 
 It has been split into two tools:
 
-* `picky-pip`__ for virtualenvs and other environments where pip is used to
+- `picky-pip`__ for virtualenvs and other environments where pip is used to
    manage packages.
 
-* `picky-conda`__ for conda environments.
+- `picky-conda`__ for conda environments.
 
 __ https://github.com/Simplistix/picky-pip
 
